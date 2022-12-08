@@ -4726,8 +4726,8 @@
         },
         title__gold_testimonials: {
             en: "People Say",
-            ru: "говорят люди",
-            ua: "говорять люди"
+            ru: "Говорят Люди",
+            ua: "Говорять Люди"
         },
         title__black_question: {
             en: "Do you have",
@@ -4736,8 +4736,8 @@
         },
         title__gold_question: {
             en: "any question?",
-            ru: "вопросы?",
-            ua: "питання?"
+            ru: "Вопросы?",
+            ua: "Питання?"
         },
         question__button: {
             en: "Order a call",
