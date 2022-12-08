@@ -182,7 +182,7 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   height: 1.875rem;
-  padding: 0 0.9375rem;
+  padding: 0rem 0.9375rem;
   gap: 0.625rem;
 }
 
@@ -261,7 +261,7 @@ h6 {
   width: 100%;
   text-align: left;
   cursor: pointer;
-  padding: 5px 15px;
+  padding: 10px 15px;
   color: inherit;
   font-weight: 500;
   line-height: 119%;
@@ -2206,6 +2206,14 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 47.99875em) {
+  .select__value {
+    font-size: 1.125rem;
+  }
+
+  .select__option {
+    font-size: 1.125rem;
+  }
+
   .title-footer:not(:last-child) {
     margin-bottom: 2.1875rem;
   }
@@ -2280,7 +2288,7 @@ button.swiper-pagination-bullet {
   }
 
   .menu__link {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
   }
 
   .icon-menu {
@@ -2443,7 +2451,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 47.99875em) and (max-width: 20em) {
   .menu__body {
-    padding-top: 5.9375rem;
+    padding-top: 7.1875rem;
   }
 
   .menu__body::before {
@@ -3067,7 +3075,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 47.99875em) and (min-width: 47.99875em) {
   .menu__body {
-    padding-top: 7.125rem;
+    padding-top: 8.375rem;
   }
 
   .menu__body::before {
@@ -3076,15 +3084,15 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 47.99875em) and (min-width: 20em) and (max-width: 47.99875em) {
-@supports (padding-top: clamp( 5.9375rem , 5.0892478459rem  +  4.2412607706vw , 7.125rem )) {
+@supports (padding-top: clamp( 7.1875rem , 6.3392478459rem  +  4.2412607706vw , 8.375rem )) {
     .menu__body {
-      padding-top: clamp( 5.9375rem , 5.0892478459rem  +  4.2412607706vw , 7.125rem );
+      padding-top: clamp( 7.1875rem , 6.3392478459rem  +  4.2412607706vw , 8.375rem );
     }
 }
 
-@supports not (padding-top: clamp( 5.9375rem , 5.0892478459rem  +  4.2412607706vw , 7.125rem )) {
+@supports not (padding-top: clamp( 7.1875rem , 6.3392478459rem  +  4.2412607706vw , 8.375rem )) {
     .menu__body {
-      padding-top: calc(5.9375rem + 1.1875 * (100vw - 20rem) / 27.99875);
+      padding-top: calc(7.1875rem + 1.1875 * (100vw - 20rem) / 27.99875);
     }
 }
 
